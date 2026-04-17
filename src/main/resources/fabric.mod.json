@@ -1,0 +1,23 @@
+{
+  "schemaVersion": 1,
+  "id": "homesandbacks",
+  "version": "${version}",
+  "name": "HomesAndBacks",
+  "description": "Set homes and teleport back to your last location.",
+  "authors": ["Legowo"],
+  "contact": {},
+  "license": "MIT",
+  "environment": "*",
+  "entrypoints": {
+    "main": [
+      "com.example.homesandbacks.HomesAndBacksMod"
+    ]
+  },
+  "mixins": [],
+  "depends": {
+    "fabricloader": ">=0.16.14",
+    "fabric-api": "*",
+    "minecraft": "~1.21.8",
+    "java": ">=21"
+  }
+}

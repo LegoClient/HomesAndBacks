@@ -1,0 +1,9 @@
+HomesAndBacks Commands
+======================
+
+/sethome [name]   - Save your current location as a home (default name: home)
+/home [name]      - Teleport to a saved home (default: home)
+/delhome [name]   - Delete a saved home (default: home)
+/homes            - List all your saved homes
+/back             - Return to your location before the last teleport
+                    (use /back again to toggle between the two spots)
